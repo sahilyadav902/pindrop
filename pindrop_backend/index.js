@@ -20,6 +20,6 @@ mongoose
 app.use('/api/users', userRoute);
 app.use('/api/pins', pinRoute);
 
-app.listen(8000, () => {
+app.listen(8000||process.env.PORT, () => {
     console.log('App is running on port 8000! XD');
 })
