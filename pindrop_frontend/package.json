@@ -2,7 +2,7 @@
   "name": "pindrop_frontend",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://pindrop.onrender.com/",
+  "proxy": "https://pindrop-server.vercel.app/",
   "dependencies": {
     "@emotion/react": "^11.10.5",
     "@emotion/styled": "^11.10.5",
